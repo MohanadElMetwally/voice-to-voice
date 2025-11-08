@@ -1,0 +1,43 @@
+{
+    "editor.rulers": [
+        88
+    ],
+    "editor.overrideSettings": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.testing.cwd": "${workspaceFolder}/tests",
+    "cSpell.words": [
+        "clsname",
+        "Rtmp",
+        "Rtsp"
+    ],
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.rulers": [
+            88
+        ],
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit",
+            "source.fixAll": "explicit"
+        }
+    },
+    "python.languageServer": "Pylance",
+    "python.analysis.autoFormatStrings": true,
+    "ruff.lineLength": 88,
+    "python.analysis.typeCheckingMode": "basic",
+    "autoDocstring.docstringFormat": "google",
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}"
+    ],
+    "python.analysis.diagnosticMode": "workspace",
+    "git.openRepositoryInParentFolders": "always",
+    "notebook.editorOptionsCustomizations": {
+        "editor.tabSize": 4,
+        "editor.indentSize": 4,
+        "editor.insertSpaces": true
+    },
+    "cSpell.diagnosticLevel": "Hint",
+    "cSpell.dark": {},
+    "python.analysis.autoImportCompletions": true,
+}
