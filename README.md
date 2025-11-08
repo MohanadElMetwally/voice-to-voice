@@ -78,7 +78,7 @@ Install dependencies and start the server. The project uses FastAPI’s CLI (pro
 
 ```
 # create and activate a virtual environment, then:
-uv sync.
+uv sync
 
 # run the app
 fastapi run src/voice_to_voice/main.py
